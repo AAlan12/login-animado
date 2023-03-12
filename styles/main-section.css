@@ -41,7 +41,8 @@ h2 {
     transition: .5s;
 }
 
-input:focus ~ label, input:focus ~ :valid {
+input:focus ~ label, 
+input:valid ~ label {
     top: -5px;
 } 
 
@@ -82,5 +83,34 @@ input:focus ~ label, input:focus ~ :valid {
 }
 
 .forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: var(--branco);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: var(--branco);
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.register p a:hover {
     text-decoration: underline;
 }
