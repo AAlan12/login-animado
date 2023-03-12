@@ -4,9 +4,9 @@
     --verde: #5D9C59;
     --vermelho: #DF2E38;
     --branco: #DDF7E3;
-    --font-principal: font-family: 'Poppins', sans-serif;
+    --font-principal: 'Poppins', sans-serif;
 }
 
-* {
+html {
     font-family: var(--font-principal);
 }

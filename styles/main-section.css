@@ -38,7 +38,12 @@ h2 {
     color: var(--branco);
     font-size: 1em;
     pointer-events: none;
+    transition: .5s;
 }
+
+input:focus ~ label, input:focus ~ :valid {
+    top: -5px;
+} 
 
 .inputbox input {
     width: 100%;
@@ -49,4 +54,33 @@ h2 {
     font-size: 1em;
     padding: 0 35px 0 5px;
     color: var(--branco);
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: var(--branco);
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
 }
