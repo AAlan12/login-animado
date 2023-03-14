@@ -8,7 +8,7 @@ Página de login animada usando HTLM e CSS
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | landing-page-Belle-Bot
+| :sparkles: Nome        | login-animado
 | :label: Tecnologias | HTML, CSS
 | :rocket: URL         | 
 | :fire: Desafio     | 
