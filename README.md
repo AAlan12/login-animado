@@ -10,8 +10,8 @@ Página de login animada usando HTLM e CSS
 | -------------  | --- |
 | :sparkles: Nome        | login-animado
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         | 
-| :fire: Desafio     | 
+| :rocket: URL         | https://aalan12.github.io/login-animado/
+| :fire: Desafio     | https://aalan12.github.io/login-animado/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github.com/AAlan12/login-animado/blob/main/img/thumb.PNG?raw=true#vitrinedev)
